@@ -20,7 +20,7 @@ const MessageContainer = ({ userMessage, userName }) => {
         messagesEndRef.current.scrollIntoView({ behavior: "smooth" })
     }
 
-    useEffect(scrollToBottom, [userMessage]);
+    useEffect(scrollToBottom);
 
     // setting up state for MockResponse and then mounting and updating the same
     const [mockResponse, setMockResponse] = React.useState([]);
