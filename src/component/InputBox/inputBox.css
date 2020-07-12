@@ -1,0 +1,20 @@
+#userInputField {
+    width: 34rem;
+    padding: 6px;
+    margin-left: 2%;
+    border-radius: 10px;
+}
+
+#inputBox-style {
+    justify-content: center;
+    width: 40%;
+}
+
+#userNameInputField {
+    width: 60%;
+    padding: 1%;
+}
+
+.modal{
+    background-color: #1e1f1ceb;
+}

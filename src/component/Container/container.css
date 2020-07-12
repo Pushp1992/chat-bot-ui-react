@@ -1,0 +1,46 @@
+#parent-view {
+  margin-top: 20px;
+  max-height: max-content;
+}
+
+#card-style {
+  margin-top: 1rem;
+  height: 30rem;
+}
+
+.aliasName {
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+  z-index: 2;
+  color: green;
+  text-transform: capitalize;
+}
+
+.aliasMsg {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: black;
+  margin-top: 8px !important;
+}
+
+#defualt-text {
+  color: teal;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: cursive;
+  margin-top: 50px;
+}
+
+.scroll {
+  /* max-height: 60%; */
+
+  background-color: lightblue;
+  width: 610px;
+  height: 310px;
+  /* overflow: auto; */
+  overflow-y: scroll;
+  position : relative;
+  bottom:0;
+
+}
