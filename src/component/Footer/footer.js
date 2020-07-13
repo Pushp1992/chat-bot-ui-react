@@ -7,22 +7,13 @@ const styles = {
         backgroundColor: "black"
     },
     colStyle: {
-        height: '9rem'
+        height: '11rem'
     },
     newsApiText: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        display: 'inline-block',
-        marginTop: '20px'
-    },
-    newsText: {
-        letterSpacing: '4px',
-        padding: '5px 0 5px 6px',
-        backgroundColor: "#1a73e8",
-        boxSizing: 'border-box',
-        fontFamily: 'NA Sans',
-        fontSize: '2.25rem',
+        marginTop: '8rem',
         color: 'white'
     },
     apiText: {
@@ -44,8 +35,7 @@ function Footer() {
             <Row>
                 <Col style={styles.colStyle}>
                     <div style={styles.newsApiText}>
-                        <span style={styles.newsText}>News</span>
-                        <span style={styles.apiText}>API</span>
+                        <span>&#169;</span> For Yellow Messanger only
                     </div>
                 </Col>
             </Row>

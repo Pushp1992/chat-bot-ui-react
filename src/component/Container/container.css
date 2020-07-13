@@ -33,14 +33,10 @@
 }
 
 .scroll {
-  /* max-height: 60%; */
-
   background-color: lightblue;
   width: 610px;
-  height: 310px;
-  /* overflow: auto; */
+  height: 440px;
   overflow-y: scroll;
   position : relative;
   bottom:0;
-
 }
