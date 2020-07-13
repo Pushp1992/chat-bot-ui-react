@@ -23,6 +23,14 @@ ___
 `npm run dev`
 ___
 
+# Application features
+
+1. Take user name from input box, on page load (Optional).
+2. Default displayed text to the user about the chat bot.
+3. Take user input and respond based on input type.
+4. For unidentified user input, will show default bot response.
+___
+
 # Application structure
 ___
 

@@ -1,7 +1,7 @@
 // All the view component are integrated Headers.
 
 import React, { Component } from 'react';
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 
 // Custom component Import
 import { HeaderComponent, FooterComponent } from '../component';

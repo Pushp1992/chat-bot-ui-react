@@ -1,8 +1,7 @@
 // Getting all the news feed and display in this component
 
 import React, { useEffect } from 'react';
-import { Container, Row, Col } from "react-bootstrap";
-import { Card, Button, CardHeader, CardBody, CardTitle, CardText } from 'reactstrap';
+import { Container } from "react-bootstrap";
 
 // custom import
 import MockResponse from '../../utils/mockResponse';
