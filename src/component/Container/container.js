@@ -72,7 +72,7 @@ const MessageContainer = ({ userMessage, userName }) => {
                                     <div className="aliasName">{userName === '' ? 'Guest' : userName}:</div>
                                     <div className="aliasMsg">{chatData.currentUserMsg}</div>
                                     <div className="aliasName">{BOT_NAME}: {" "}</div>
-                                    <div className="aliasMsg">{chatData.currentBotRpl}</div>
+                                    <div className="aliasMsg">{chatData.currentBotRpl !== undefined ? chatData.currentBotRpl : 'Sorry, i did not get that'}</div>
                                 </div>
                             )
                         })
