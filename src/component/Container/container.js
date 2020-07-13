@@ -63,7 +63,7 @@ const MessageContainer = ({ userMessage, userName }) => {
 
     return (
         <Container id="parent-view">
-            <div className="scroll">
+            <div className="box-style">
                 {
                     chatDataList.length !== 0 ?
                         chatDataList.map(chatData => {
