@@ -31,22 +31,15 @@ ___
     -- assets
         -- images
     -- component
-        -- Cards
+        -- Container
         -- Footer
         -- Header
         -- HomePage
-        -- NavBar
-        -- NewsPage
+        -- InputBox
         -- NotFound
-        -- Search
-        -- SearchResultPage
         -- component.js
         -- routes.js
-    -- server
-        -- config
-        -- proxy
-        -- index.js
     -- utils
-        -- service.js
+        -- mockresponse.js.js
         -- toastr.js
 # .gitignore
