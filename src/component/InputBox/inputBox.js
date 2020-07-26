@@ -23,6 +23,7 @@ class UserInputBox extends Component {
     }
 
     closeModal = (event) => {
+        // add comment
         event.preventDefault();
         this.setState({ setOpen: !this.state.setOpen })
     }
